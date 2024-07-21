@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Tracker</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quick Tracking</h1>
+      <button id="startSession" class="btn">Start New Session</button>
+
+      <div id="trackingControls" style="display: none">
+        <input type="text" id="taskName" placeholder="Enter task details" />
+        <button id="startTracking" class="btn">Start Tracking</button>
+        <button id="pauseTracking" class="btn" style="display: none">
+          Pause Tracking
+        </button>
+        <button id="resumeTracking" class="btn" style="display: none">
+          Resume Tracking
+        </button>
+        <button id="stopTracking" class="btn" style="display: none">
+          Stop Tracking
+        </button>
+      </div>
+
+      <div id="timerDisplay" style="display: none">Timer: 00:00:00</div>
+
+      <div id="logSection" style="display: none">
+        <h2>Logs</h2>
+        <table class="log-table" id="logTable">
+          <thead>
+            <tr>
+              <th>Start Time</th>
+              <th>End Time</th>
+              <th>Duration</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="logTableBody"></tbody>
+        </table>
+      </div>
+      <div><a id="btn1" class="btn" href="Analysis.html">Weekly Report</a></div>
+    </div>
+    <script src="script.js">
+      script.js
+    </script>
+  </body>
+</html>

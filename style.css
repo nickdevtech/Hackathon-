@@ -1,0 +1,109 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: radial-gradient( #fbc2eb , #a6c1ee);
+  color: #e4c8c8;
+  margin: 0;
+  padding: 0;
+  
+}
+.container {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+h1 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+#timerDisplay {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #333;
+  font-weight: 500;
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background: #000000;
+  transition: background 0.3s, transform 0.2s;
+}
+.btn:hover {
+  background: #325172;
+  transform: translateY(-2px);
+}
+.btn:active {
+  background: #445569;
+  transform: translateY(0);
+}
+.btn:focus {
+  outline: none;
+}
+.log-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.log-table th,
+.log-table td {
+  border: 1px solid #ffffff;
+  padding: 12px;
+  text-align: left;
+  border-collapse: collapse;
+  color: #000000;
+}
+.log-table th {
+  background-color: #080202;
+  color: #ffffff;
+}
+.log-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+.log-table tbody tr:hover {
+  background-color: #e9ecef;
+}
+.delete-btn {
+  color: #dc3545;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-weight: bold;
+}
+.delete-btn:hover {
+  color: #c82333;
+}
+
+#btn1 {
+  padding-top: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+#btn1:hover {
+  background-color: #3487a8;
+}
+h1,h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  color: #daafaf;
+}
+ 
+#taskName{
+    padding: 10px;
+    font-size: 16px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+    border: 1px solid #e9e6e6;
+    border-radius: 4px;
+    outline: none;
+}

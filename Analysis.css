@@ -1,0 +1,15 @@
+        .analytics-container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .summary {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .canvas-container {
+            position: relative;
+            height: 50vh;
+            width: 80vw;
+        }
+        
